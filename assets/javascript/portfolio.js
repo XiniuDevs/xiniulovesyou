@@ -17,19 +17,19 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'pma',
+      name: 'xiniu',
       link: '2016899828', 
     },
     {
-      name: 'izzy',
+      name: 'xiniu',
       link: '994781249',
     },
     {
-      name: '$A',
+      name: 'xiniu',
       link: '1875266532',	
     },
     {
-      name: 'fzo',
+      name: 'xiniu',
       link: '154583591',
     },
   ];
@@ -50,7 +50,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['pma', 'izzy', '$A', 'fzo']);
+  app.titleChanger(['u','got', 'doxxed', 'bozo']);
   app.iconChanger(['assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png', 'assets/others/x.png']);
 });
 
@@ -142,7 +142,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459;'>pma#0001 loves you <3</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459;'>Xin1u#9999 loves you <3</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
